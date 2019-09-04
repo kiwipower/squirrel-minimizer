@@ -1,0 +1,25 @@
+{
+  "name": "squirrel-minimizer",
+  "version": "1.0.0",
+  "description": "A tool for minimizing squirrel-lang source code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "minimize": "node --experimental-modules index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/SkyIoT/squirrel-minimizer.git"
+  },
+  "author": "Alistair Lowe",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://gitlab.com/SkyIoT/squirrel-minimizer/issues"
+  },
+  "homepage": "https://gitlab.com/SkyIoT/squirrel-minimizer#readme",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "eslint": "^6.3.0"
+  }
+}
